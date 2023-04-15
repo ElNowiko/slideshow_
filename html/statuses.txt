@@ -1,0 +1,10 @@
+git config --global alias.g "status"
+git config --global alias.l "log --pretty=oneline --abbrev-commit --abbrev=4 -25"
+
+
+[alias]
+    save = "!f() { git add . && git commit -m \"$1\"; }; f"
+
+
+[alias]
+    save = "!f() { git add . && git commit -m \"$1\"; }; f"
