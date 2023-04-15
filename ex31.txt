@@ -1,0 +1,16 @@
+git help push:
+
+receive.denyNonFastForwards 
+
+git help config:
+
+receive.denyNonFastForwards::
+If set to true, git-receive-pack will deny a ref update that is not a fast-forward. Use this to prevent such pushes. This configuration variable is set in the remote repository.
+
+
+
+git help remote:
+
+The 'remote' command help mentions the 'add' subcommand, which can be used to add a new remote repository. The syntax for the 'add' subcommand is:
+
+git remote add <name> <url>
